@@ -139,7 +139,6 @@ color: var(--IRIS, #4D5AE5);
         text-align: center;
         margin-top: 48px;
         margin-left: 480px;
-        margin-right: 480px;
         padding: 16px 32px;
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -147,6 +146,16 @@ color: var(--IRIS, #4D5AE5);
 
 .main-button:hover, .main-button:focus {
     background-color: var(--OCEAN, #404BBF);
+}
+
+.preferences-title {
+    visibility: hidden;
+}
+
+.preferences-list {
+    display: flex;
+    gap: 24px;
+    margin: 120px auto;
 }
 
 .preferences-item {
@@ -212,6 +221,13 @@ color: var(--IRIS, #4D5AE5);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
 }
 
 .footer {
