@@ -174,7 +174,8 @@ position: absolute;
     padding: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0;}
+    border: 0;
+}
 
 .preferences-list {
     display: flex;
@@ -191,7 +192,6 @@ position: absolute;
 
 .preferences-list-item-container {
     padding: 32px 0;
-
 }
 
 .preferences-item-title {
@@ -210,7 +210,6 @@ position: absolute;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    
 }
 
 /* Third section content */
@@ -245,6 +244,10 @@ background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.team-list-container {
+    padding: 32px 0;
+}
+
 .team-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
@@ -260,6 +263,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.32px;
+        text-align: center;
 }
 
 /* Fourth section content */
