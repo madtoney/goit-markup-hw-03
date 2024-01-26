@@ -201,7 +201,6 @@ position: absolute;
     line-height: 24px;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
-    text-align: center;
 }
 
 .preferences-item-paragraph {
@@ -351,4 +350,5 @@ color: #F4F4FD;
 color: var(--CLOUD, #F4F4FD);
     line-height: 24px;
     letter-spacing: 0.02em;
+    max-width: 264px
 }
